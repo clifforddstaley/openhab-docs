@@ -40,7 +40,7 @@ The log shell comes with the following commands:
 | `log:tail`              | Continuously display log entries. Use ctrl-c to quit this command |
 
 For example, the following command enables the real-time monitoring of the default log:
-
+(I'm a new person and was hoping my feedback would help others. above they say there are two logs. event and openhab. this line says default. so which log is default for tailing before changes have been made. at this stage of the doc there is no apparent way to specify a filename. the example below just says tail. is this the event or openhab log?)
 ```
 openhab> log:tail
 20:38:00.031 [DEBUG] [sistence.rrd4j.internal.RRD4jService] - Stored 'Temperature_FF_Child' with state '19.1' in rrd4j database
